@@ -1,7 +1,6 @@
 {
   "name": "azar-cal",
   "version": "0.0.1",
-  "private": true,
   "dependencies": {
     "@capacitor/core": "2.4.0",
     "@ionic/react": "^5.0.7",
@@ -27,7 +26,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "commit": "npx git-cz"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -45,7 +45,53 @@
     ]
   },
   "devDependencies": {
-    "@capacitor/cli": "2.4.0"
+    "@capacitor/cli": "2.4.0",
+    "cz-conventional-changelog": "^3.2.0"
   },
-  "description": "An Ionic project"
+  "description": "Yet another productivity app",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SwiftWinds/azar-cal.git"
+  },
+  "keywords": [
+    "productivity",
+    "app",
+    "ionic",
+    "react",
+    "typescript",
+    "machine-learning",
+    "machine",
+    "learning",
+    "ML",
+    "calendar",
+    "azar",
+    "time-management",
+    "time",
+    "management",
+    "getting-things-done",
+    "getting",
+    "things",
+    "done",
+    "david-allen",
+    "david",
+    "allen",
+    "web-app",
+    "web",
+    "deep-learning",
+    "deep",
+    "learning",
+    "prediction",
+    "suggestion"
+  ],
+  "author": "SwiftWinds",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/SwiftWinds/azar-cal/issues"
+  },
+  "homepage": "https://github.com/SwiftWinds/azar-cal#readme"
 }
